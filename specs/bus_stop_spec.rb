@@ -7,7 +7,10 @@ require_relative('../bus_stop')
 class BusStopTest < MiniTest::Test
 
   def setup
-    @bus_stop = BusStop.new("Leith Road")
+    @bus_stop = BusStop.new("Leith Road", [])
+  end
+
+  def test_
   end
 
 end

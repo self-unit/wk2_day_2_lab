@@ -44,6 +44,4 @@ class BusTest < MiniTest::Test
     assert_equal(0, @bus.how_many.count)
   end
 
-
-
 end

@@ -1,7 +1,6 @@
 class Bus
   attr_reader :route, :destination
 
-
   def initialize(route, destination, passengers)
     @route = route
     @destination = destination
@@ -27,4 +26,5 @@ class Bus
   def empty
     @passengers.reject! {|person| person == person}
   end
+
 end
